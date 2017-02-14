@@ -6,13 +6,24 @@
 </head>
 <body>
    <h2>iOS</h2>
+   <p>iOs use link to apple maps for opening native app ( https://developer.apple.com/library/prerelease/content/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html ) </p>
 
    <p>To perform a search, supply a properly encoded URL string as the value of the q parameter. For example:</p>
    <a href="http://maps.apple.com/?q=Mexican+Restaurant">Mexican Restaurant</a>
 
    <p>You can omit the start address when you want to provide directions “from here.” The following example shows a search from here that provides driving directions in a hybrid map.</p>
    <a href="http://maps.apple.com/?daddr=San+Francisco&dirflg=d&t=h">From here to San Francisco</a>
+
+
    <h2>Android</h2>
+
+   <p>Android use GEO protocol</p>
+   <a href="geo:MAR'INS'KA%20STR.,%20KHARKIV">Kharkiv</a>
+
+
    <h2>Windows Phone</h2>
+
+   <p>Windows phone use MAPS protocol</p>
+   <a href="maps:MAR'INS'KA%20STR.,%20KHARKIV">Kharkiv</a>
 </body>
 </html>
